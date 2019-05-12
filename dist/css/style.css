@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+/* THE CONTAINER */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+/* HEADER */
+.wolfee {
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(36, 31, 43);
+    position: fixed;
+}
+header nav ul{
+    list-style-type: none;
+    margin:0;
+    display: inline-block;  
+}
+header nav ul li{
+    display: inline-block;   
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(220, 199, 198);
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding: 20px 10px;
+}
+
+/* MAIN */
+.img1 {
+    background-image: url('../img/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+.filler {
+    background-color: rgb(220, 199, 198);
+    height: 600px;
+}
+.fill1 {
+    background-color: rgb(243, 241, 241);
+}
+.fill1 div p {
+    margin: 0;
+    color: rgb(36, 31, 43);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+}
+main {
+    width: 100%;
+}
+main .filler h1 {
+    margin: 0;
+    color: rgb(36, 31, 43);
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+/* FOOTER */
+.fico {
+    width: 50%;
+    float: left;
+}
+.fnav {
+    width: 50%;
+    float: right;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #443a42;
+}
+footer nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+footer .fico nav ul li a {
+    text-decoration: none;
+    font-size: 32px;
+    margin: 10px;
+    color: rgb(220, 199, 198);
+}
